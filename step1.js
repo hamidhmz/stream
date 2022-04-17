@@ -40,6 +40,7 @@ rs.pipe(
       this.push(chunk.toString().toUpperCase());
       next();
     },
+    
   })
 ).pipe(ws);
 

@@ -24,3 +24,7 @@
 - we should use pipe, or we should use all events like, on('readable'), on('end'), which is using old way of stream, that means it will wait for read and the write, which base case is write should ask for the data not read.
 - best practice is using pipe.
 - 
+
+
+questions: 
+- can we read line by line?
